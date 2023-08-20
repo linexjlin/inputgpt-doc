@@ -10,6 +10,10 @@ export default defineConfig({
     name: 'InputGPT',
     logo: '/logo.png',
     footer:  'Powered by InputGPT',
+    socialLinks: {
+      github: 'https://github.com/linexjlin/inputGPT',
+    },
+
   },
   locales: [
     { id: 'en-US', name: 'EN' },
