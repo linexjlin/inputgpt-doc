@@ -39,7 +39,7 @@ Not only for reading comprehension, it can also be used for code completion and 
 
 ```json
 {
-    "name": "完型填空",
+    "name": "cloze",
     "model": "gpt-3.5-turbo-0613",
     "headMessages": [
       {
