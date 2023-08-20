@@ -37,6 +37,7 @@ title: 使用案例
 ```
 
 ![](https://ipfs.ee/ipfs/QmWeYQJG8Tw41MNdqBX8H3RMPXLp4FEEdnTHtCGzjiXnFt/7c5ec8d0-a3d2-4d06-b649-316456390599.gif)
+
 修改上在面的，prompt GPT 可以翻译任意语言。
 
 ## 总结文章
@@ -90,3 +91,18 @@ title: 使用案例
 不只是完形填空， 它还可以做代码补全，诗歌补全。 先在想补全的地方打一个 "_" 下划线， 然后再查询ChatGPT。
 
 ![](https://ipfs.ee/ipfs/QmRRcA8fbJ8V73h2e5hxkRDLDf2bsKcb9TurjXJCCADTRo/a159ab5f-e308-4d02-8d64-9c02ea0fc48e.gif)
+
+## 对话
+
+```json
+{
+    "name": "ChatGPT",
+    "model": "gpt-3.5-turbo-0613",
+    "headMessages": [{
+        "role": "system",
+        "content": "You are a helpful assistant."
+    }],
+    "maxContext": 24
+}
+```
+ChatGPT 的基本功能
