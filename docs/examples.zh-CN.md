@@ -47,10 +47,10 @@ title: 使用案例
     "headMessages": [
       {
         "role": "system",
-        "content": "以中文markdown格式总结下面这篇文章"
+        "content": "以中文 markdown 格式总结下面这篇文章: "
       }
     ],
-    "maxContext": 16
+    "maxContext": 1
   }
 ```
 
