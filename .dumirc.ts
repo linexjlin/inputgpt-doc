@@ -10,7 +10,6 @@ export default defineConfig({
     name: 'InputGPT',
     logo: '/logo.png',
     footer:  'Powered by InputGPT',
-    sitemap: { hostname: 'xxx.com' },
   },
   locales: [
     { id: 'en-US', name: 'EN' },
