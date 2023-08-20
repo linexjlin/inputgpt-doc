@@ -2,9 +2,7 @@
 title: Examples
 ---
 
-# Prompt templates
-
-## ChatGPT
+## Act as ChatGPT
 ```json
 {
   "name": "ChatGPT",
@@ -18,7 +16,8 @@ title: Examples
   "maxContext": 20
 }
 ```
-## Translate 翻译 
+
+## Translate
 
 ```json
 {
@@ -35,10 +34,8 @@ title: Examples
 ```
 
 
-
-## Cloze 完型填空 
+## Cloze 
 Not only for reading comprehension, it can also be used for code completion and poetry completion. 
-不只是完形填空， 它还可以做代码补全，诗歌补全
 
 ```json
 {
