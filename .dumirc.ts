@@ -13,7 +13,6 @@ export default defineConfig({
     socialLinks: {
       github: 'https://github.com/linexjlin/inputGPT',
     },
-
   },
   locales: [
     { id: 'en-US', name: 'EN' },

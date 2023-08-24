@@ -8,6 +8,10 @@
     "build": "dumi build",
     "prepare": "husky install && dumi setup"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linexjlin/inputgpt-doc"
+  },
   "authors": [],
   "license": "MIT",
   "commitlint": {
