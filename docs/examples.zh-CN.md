@@ -56,8 +56,6 @@ title: 使用案例
 ```
 
 ## 完型填空 
-
-
 ```json
 {
     "name": "完型填空",
@@ -120,6 +118,7 @@ title: 使用案例
   "maxContext": 80
 }
 ```
+### 用法
 1. 复制上面的json， 然后导入到软件，如果还没导入的话
 2. 复制你要提问文章的文本
 3. 按下 `shift+space` 提交文章，你会收到 Document Recieved
