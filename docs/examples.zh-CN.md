@@ -105,4 +105,24 @@ title: 使用案例
     "maxContext": 24
 }
 ```
-ChatGPT 的基本功能
+
+## 文档问答
+```json
+{
+  "name": "Chat With Document",
+  "model": "gpt-3.5-turbo-16k",
+  "headMessages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Please answer my questions by the article I give you next. When you receive the article reply me with \"Document Received!\" "
+    }
+  ],
+  "maxContext": 80
+}
+```
+1. 复制上面的json， 然后导入到软件，如果还没导入的话
+2. 复制你要提问文章的文本
+3. 按下 `shift+space` 提交文章，你会收到 Document Recieved
+4. 然后，就可以正常交互了
+5. 如果想要换切换文章，需要先清除上下文
+
