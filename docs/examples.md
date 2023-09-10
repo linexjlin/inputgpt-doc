@@ -18,7 +18,7 @@ title: Examples
 ```
 
 ## Chat With Document
-```
+```json
 {
   "name": "Chat With Document",
   "model": "gpt-3.5-turbo-16k",
