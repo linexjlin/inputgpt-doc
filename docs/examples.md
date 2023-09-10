@@ -17,6 +17,27 @@ title: Examples
 }
 ```
 
+## Chat With Document
+```
+{
+  "name": "Chat With Document",
+  "model": "gpt-3.5-turbo-16k",
+  "headMessages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant. Please answer my questions by the article I give you next. When you receive the article reply me with \"Document Received!\" "
+    }
+  ],
+  "maxContext": 80
+}
+```
+### Usage 
+1. Copy the JSON above and import it into the software if you haven't already.
+2. Copy the text of the article you want to ask about.
+3. Press `shift+space` to submit the article, and you will receive a "Document Received" message.
+4. You can then proceed with your questions and interactions.
+5. If you want to switch to a different article, you need to clear the context first.
+
 ## Translate
 
 ```json
