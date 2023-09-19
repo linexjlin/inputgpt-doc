@@ -21,7 +21,7 @@ title: 使用案例
 ![](https://ipfs.io/ipfs/QmbV39V3cCarNqCS8yXnhBL67CdeTwPUj7Zydr85ybBgVM?filename=e8831869-a2d7-4433-89b9-35f5db272626.gif)
 
 
-## 翻译 
+## 翻译成中文
 ```json
 {
     "name":"翻译成中文",
@@ -30,6 +30,21 @@ title: 使用案例
       {
         "role": "system",
         "content": "Your a translator you translate any text I give you into Chinese. Here is the message:"
+      }
+    ],
+    "maxContext": 1
+  }
+```
+
+## 翻译成英文
+```json
+{
+    "name":"翻译成英文",
+    "model": "gpt-3.5-turbo-0613",
+    "headMessages": [
+      {
+        "role": "system",
+        "content": "Your a translator you translate any text I give you into English. Here is the message:"
       }
     ],
     "maxContext": 1
@@ -125,7 +140,7 @@ title: 使用案例
 4. 然后，就可以正常交互了
 5. 如果想要换切换文章，需要先清除上下文
 
-## 起标题
+## 给文章起标题
 ```json
 {
   "name": "起个标题",
@@ -158,7 +173,7 @@ title: 使用案例
 ## 列出值关注的问题然后回答我的疑问
 ```json
 {
-  "name": "列出值的关注的问题然后回答我的问题",
+  "name": "列出问题然后回答我的疑问",
   "model": "gpt-3.5-turbo-16k",
   "headMessages": [
     {
