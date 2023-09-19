@@ -125,3 +125,47 @@ title: 使用案例
 4. 然后，就可以正常交互了
 5. 如果想要换切换文章，需要先清除上下文
 
+## 起标题
+```json
+{
+  "name": "起个标题",
+  "model": "gpt-3.5-turbo-16k",
+  "headMessages": [
+    {
+      "role": "system",
+      "content": "Please make a simple title in Chinse for the following text:"
+    }
+  ],
+  "maxContext": 1
+}
+```
+
+## 总结文章
+```json
+{
+  "name": "总结文章",
+  "model": "gpt-3.5-turbo-16k",
+  "headMessages": [
+    {
+      "role": "system",
+      "content": "Please make a summary in Chinse for the following text:"
+    }
+  ],
+  "maxContext": 1
+}
+```
+
+## 列出值关注的问题然后回答我的疑问
+```json
+{
+  "name": "列出值的关注的问题然后回答我的问题",
+  "model": "gpt-3.5-turbo-16k",
+  "headMessages": [
+    {
+      "role": "system",
+      "content": "Please generate 10 most import questions in Chinse from the following text:"
+    }
+  ],
+  "maxContext": 20
+}
+```
