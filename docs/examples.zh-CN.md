@@ -166,7 +166,7 @@ title: 使用案例
       "content": "Please make a summary in Chinse for the following text:"
     }
   ],
-  "maxContext": 1
+  "maxContext": 0
 }
 ```
 
