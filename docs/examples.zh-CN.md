@@ -13,7 +13,7 @@ title: 使用案例
             "content": "观察下面的对话，再回复最后一句。"
         }
     ],
-    "maxContext": 1
+    "maxContext": 0
 }
 ```
 用法复制微信消息然后再 查询 GPT 触发回复。你再自定义自己的 prompt 把自己的背景信息，业务内容跟送给 GPT 让它生成更有针对性的内容。 
@@ -32,7 +32,7 @@ title: 使用案例
         "content": "Your a translator you translate any text I give you into Chinese. Here is the message:"
       }
     ],
-    "maxContext": 1
+    "maxContext": 0
   }
 ```
 
@@ -47,7 +47,7 @@ title: 使用案例
         "content": "Your a translator you translate any text I give you into English. Here is the message:"
       }
     ],
-    "maxContext": 1
+    "maxContext": 0
   }
 ```
 
@@ -66,7 +66,7 @@ title: 使用案例
         "content": "以中文 markdown 格式总结下面这篇文章: "
       }
     ],
-    "maxContext": 1
+    "maxContext": 0
   }
 ```
 
@@ -151,7 +151,7 @@ title: 使用案例
       "content": "Please make a simple title in Chinse for the following text:"
     }
   ],
-  "maxContext": 1
+  "maxContext": 0
 }
 ```
 
@@ -196,7 +196,7 @@ title: 使用案例
       "content": "You are a writer. Please extract the outline of the article and completely rewrite the article according to the outline. Please do not use the accent of the interpreter, but translate naturally, smoothly, and truthfully, and use beautiful and elegant words. It only needs to have a general meaning. The outline can be adjusted and does not need to appear in the answer. Just write the article in the answer. Try to keep the format of the article as much as possible. Your answer should be in Chinese. I'll send you the text later. I am now sending you the text."
     }
   ],
-  "maxContext": 1
+  "maxContext": 0
 }
 ```
 
