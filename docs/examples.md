@@ -50,7 +50,7 @@ title: Examples
         "content": "Translate all the messages I give you into English"
       }
     ],
-    "maxContext": 1
+    "maxContext": 0
   }
 ```
 
@@ -60,30 +60,30 @@ Not only for reading comprehension, it can also be used for code completion and 
 
 ```json
 {
-    "name": "cloze",
-    "model": "gpt-3.5-turbo-0613",
-    "headMessages": [
-      {
+    "name": "Cloze",
+    "model": "gpt-3.5-turbo",
+    "headMessages": [{
         "role": "system",
-        "content": "Cloze Test. Do not explain."
-      },
-      {
+        "content": "Cloze Test, fill some text in \"_\" to make the whole content reasonable, just give me result, do not explain."
+    }, {
         "role": "user",
-        "content": "填上合适的句子\n君不见黄河之水天上来，_\n君不见高堂明镜悲白发，\n朝如青丝暮成雪。"
-      },
-      {
+        "content": "Today, I went to the _ and bought some milk and eggs."
+    }, {
         "role": "assistant",
-        "content": "奔流到海不复回。"
-      },
-      {
+        "content": "shop"
+    }, {
         "role": "user",
-        "content": "陈王昔时宴平乐，斗酒十千恣欢谑。\n_，径须沽取对君酌。"
-      },
-      {
+        "content": "print(\"Hello __!\")"
+    }, {
         "role": "assistant",
-        "content": "主人何为言少钱。"
-      }
-    ],
-    "maxContext": 1
-  }
+        "content": "World"
+    }, {
+        "role": "user",
+        "content": "1\n2\n3\n4\n5\n_\n8\n9\n"
+    }, {
+        "role": "assistant",
+        "content": "6\n7\n"
+    }],
+    "maxContext": 0
+}
 ```
