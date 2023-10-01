@@ -18,5 +18,5 @@ export default defineConfig({
     { id: 'en-US', name: 'EN' },
     { id: 'zh-CN', name: '中文' },
   ],
-  sitemap: { hostname: 'https://inputgpt-doc.vercel.app' },
+  sitemap: { hostname: 'https://inputgpt.vercel.app' },
 });
