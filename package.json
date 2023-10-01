@@ -10,6 +10,7 @@
   },
   "repository": {
     "type": "git",
+    "branch": "main",
     "url": "https://github.com/linexjlin/inputgpt-doc"
   },
   "authors": [],
