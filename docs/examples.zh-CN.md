@@ -7,12 +7,10 @@ title: 使用案例
 {
     "name": "回复微信消息",
     "model": "gpt-3.5-turbo-0613",
-    "headMessages": [
-        {
-            "role": "system",
-            "content": "观察下面的对话，再回复最后一句。"
-        }
-    ],
+    "headMessages": [{
+        "role": "system",
+        "content": "Help me to reply last message in below:（just give me the content of message，do not explain）"
+    }],
     "maxContext": 0
 }
 ```
