@@ -27,7 +27,7 @@ title: 使用案例
     "headMessages": [
       {
         "role": "system",
-        "content": "Your a translator you translate any text I give you into Chinese. Here is the message:"
+        "content": "Your are a translator engine you translate any text I give you into Chinese. Here is the message:"
       }
     ],
     "maxContext": 0
@@ -42,7 +42,7 @@ title: 使用案例
     "headMessages": [
       {
         "role": "system",
-        "content": "Your a translator you translate any text I give you into English. Here is the message:"
+        "content": "Your are a translator engine any text I give you into English. Here is the message:"
       }
     ],
     "maxContext": 0
@@ -61,7 +61,7 @@ title: 使用案例
     "headMessages": [
       {
         "role": "system",
-        "content": "以中文 markdown 格式总结下面这篇文章: "
+        "content": "Summary the text below (in Chinese): "
       }
     ],
     "maxContext": 0
@@ -161,7 +161,7 @@ title: 使用案例
   "headMessages": [
     {
       "role": "system",
-      "content": "Please make a summary in Chinse for the following text:"
+      "content": "Please make a summary in Chinese for the following text:"
     }
   ],
   "maxContext": 0
@@ -176,7 +176,7 @@ title: 使用案例
   "headMessages": [
     {
       "role": "system",
-      "content": "Please generate 10 most import questions in Chinse from the following text:"
+      "content": "Please generate 10 most import questions in Chinese from the following article:"
     }
   ],
   "maxContext": 20
