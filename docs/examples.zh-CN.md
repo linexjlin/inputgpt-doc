@@ -120,7 +120,7 @@ title: 使用案例
 ## 文档问答
 ```json
 {
-  "name": "Chat With Document",
+  "name": "文档问答",
   "model": "gpt-3.5-turbo-16k",
   "headMessages": [
     {
