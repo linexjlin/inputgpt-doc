@@ -48,10 +48,22 @@ title: 使用案例
     "maxContext": 0
   }
 ```
-
 ![](https://ipfs.ee/ipfs/QmWeYQJG8Tw41MNdqBX8H3RMPXLp4FEEdnTHtCGzjiXnFt/7c5ec8d0-a3d2-4d06-b649-316456390599.gif)
 
-修改上在面的，prompt GPT 可以翻译任意语言。
+
+## 中英互译
+```
+{
+    "name": "中英互译",
+    "model": "gpt-3.5-turbo",
+    "headMessages": [{
+        "role": "system",
+        "content": "As an English-Chinese translator, your task is to accurately translate text between the two languages. Just give me result do not explain. Think carefully before give me result, it is important to me."
+    }],
+    "maxContext": 0
+}
+```
+输入英文返回中文，输入中文返回英文
 
 ## 总结文章
 ```json
