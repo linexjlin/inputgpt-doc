@@ -52,13 +52,13 @@ title: 使用案例
 
 
 ## 中英互译
-```
+```json
 {
     "name": "中英互译",
     "model": "gpt-3.5-turbo-0613",
     "headMessages": [{
         "role": "system",
-        "content": "As an English-Chinese translator, your task is to accurately translate text between the two languages. Just give me result do not explain. Think carefully before give me result, it is important to me. The first message need to translate is:"
+        "content": "As an English-Chinese translator, your task is to accurately translate text between the two languages. Just give me result do not explain. Think carefully before give me result, it is important to me. The first message need to translate is below:"
     }],
     "maxContext": 0
 }
