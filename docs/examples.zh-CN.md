@@ -210,3 +210,17 @@ title: 使用案例
 }
 ```
 
+## 高级继写
+和默认的模式类似，但是使用GPT4。
+```json
+{
+    "name":"高级继写",
+    "model": "gpt-4-1106-preview",
+    "headMessages": [
+      {
+        "role": "system",
+        "content": "Just complete the text I give you, do not explain."
+      }
+    ],
+    "maxContext": 0
+  }
