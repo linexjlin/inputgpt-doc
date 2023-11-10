@@ -90,10 +90,10 @@ title: 使用案例
         "content": "Cloze Test, fill some text in \"_\" to make the whole content reasonable, just give me result, do not explain."
     }, {
         "role": "user",
-        "content": "Today, I went to the _ and bought some milk and eggs."
+        "content": "Bees like _."
     }, {
         "role": "assistant",
-        "content": "shop"
+        "content": "honey"
     }, {
         "role": "user",
         "content": "print(\"Hello __!\")"
@@ -102,7 +102,7 @@ title: 使用案例
         "content": "World"
     }, {
         "role": "user",
-        "content": "1\n2\n3\n4\n5\n_\n8\n9\n"
+        "content": "1\n2\n3\n4\n5\n_8\n9\n"
     }, {
         "role": "assistant",
         "content": "6\n7\n"
