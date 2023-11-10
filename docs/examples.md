@@ -87,3 +87,20 @@ Not only for reading comprehension, it can also be used for code completion and 
     "maxContext": 0
 }
 ```
+
+## Continue to write with GPT4
+Act like the default prompt, but with GPT4
+```json
+{
+    "name":"Continue",
+    "model": "gpt-4-1106-preview",
+    "headMessages": [
+      {
+        "role": "system",
+        "content": "Just complete the text I give you, do not explain."
+      }
+    ],
+    "maxContext": 0
+  }
+```
+
