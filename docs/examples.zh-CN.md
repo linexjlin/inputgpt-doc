@@ -104,9 +104,11 @@ title: 使用案例
 
 现在请翻译以下内容为简体中文：{selection}
 ````
-这个不需要导入， 将上面 `{selection}` 部分换成要翻译的英文就行。 必要时，你还可以在术语标添加新的术语， 人名， 地名， 相当于翻译里自带的字典。 
-演示
-![](https://ipfs.ee/ipfs/QmTyRn3R4ukHSi1jUZy8bRNxjRDpSmQ5mocU3hBPP4KynT/2b8e9b13-10bc-4505-a117-9fc51e8fb367.gif)
+这个不需要导入， 将上面 `{selection}` 部分换成要翻译的英文就行。 必要时，你还可以在术语标添加新的术语， 人名， 地名， 相当于翻译里自带的字典。
+
+这是演示：
+
+![演示](https://ipfs.ee/ipfs/QmTyRn3R4ukHSi1jUZy8bRNxjRDpSmQ5mocU3hBPP4KynT/2b8e9b13-10bc-4505-a117-9fc51e8fb367.gif)
 
 
 ## 总结文章
