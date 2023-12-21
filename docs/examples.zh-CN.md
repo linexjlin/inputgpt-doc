@@ -270,3 +270,17 @@ title: 使用案例
     ],
     "maxContext": 0
   }
+```
+
+## Gemini-Pro 继写
+```json
+{
+    "name": "Gemini-Pro Continue",
+    "model": "gemini-pro",
+    "headMessages": [{
+        "role": "system",
+        "content": "Just complete the text I give you, do not explain."
+    }],
+    "maxContext": 0
+}
+```
