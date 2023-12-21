@@ -104,3 +104,15 @@ Act like the default prompt, but with GPT4
   }
 ```
 
+## Gemini-Pro Continue
+```json
+{
+    "name": "Gemini-Pro Continue",
+    "model": "gemini-pro",
+    "headMessages": [{
+        "role": "system",
+        "content": "Just complete the text I give you, do not explain."
+    }],
+    "maxContext": 0
+}
+```
