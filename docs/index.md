@@ -87,22 +87,3 @@ then click then import menu of the app．
 
 Work like GitHub Copilot complete the codes in the middle of code file.
 [code cloze](https://ipfs.ee/ipfs/QmRp351kZ9fB1y1k9vWCHJq3egG8wZT39LYeVr9RhzbkVU/a159ab5f-e308-4d02-8d64-9c02ea0fc48e.mp4)
-
-# Build 
-```cmd
-build_win.bat
-```
-or
-```bash
-build.sh
-```
-
-# Credit
-
-https://github.com/getlantern/systray
-
-https://github.com/go-vgo/robotgo
-
-https://github.com/robotn/gohook
-
-https://github.com/hanyuancheung/gpt-go
