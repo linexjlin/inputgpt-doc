@@ -6,6 +6,8 @@ hero:
   actions:
     - text: Examples
       link: /examples
+    - text: Download
+      link: https://github.com/linexjlin/inputGPT/releases
 features:
   - title: Resource-efficient
     emoji: 📉
