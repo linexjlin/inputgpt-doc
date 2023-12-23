@@ -5,7 +5,9 @@ hero:
   description: InputGPT 的一些示例
   actions:
     - text: 示例
-      link: /examples
+      link: /zh-CN/examples
+    - text: 下载
+      link: https://github.com/linexjlin/inputGPT/releases
 features:
   - title: 资源高效
     emoji: 📉
