@@ -20,11 +20,11 @@ features:
 ---
 
 # InputGPT 
-A program let you query GPT from any input area. 
+A program let you query LLM from any input area at any time. 
 
 ## What the app can do?
-* Call LLM without disconnecting from the workspace.
-* Call LLM in the fastest way possible.
+* Call LLM without interrupting your flow of thoughts.
+* Call LLM in the fastest way.
 
 ## Features
 *  Cross-platform [win,mac]
@@ -36,7 +36,8 @@ A program let you query GPT from any input area.
 1. Open InputGPT click "Set API KEY" to provide OpenAI Key. 
 1. Copy the text to clipboard
 1. Click `shift + space` to query GPT
-1. Press `ESC` key to stop generate
+1. One `ESC` key to stop generate
+1. Triple click ESC key to quick clear context
 
 ## User define HotKey 
 Click "Set API KEY" InputGPT will open `env.txt` file 
@@ -44,12 +45,12 @@ Add a new line to the file like this `GPT_HOTKEYS=space+shift` then save and clo
 the keycode [reference](https://github.com/vcaesar/keycode/blob/main/keycode.go):
 ![](https://ipfs.ee/ipfs/QmaBtanJEmt8krtLLAL2zE9QYyNodQ7bvkRofNuWABaZmn/d6636a7b-cb75-494f-84ac-3935382544d8.png)
 
-## Import Prompt
+## Import a new Prompt
 Just Copy the json like below copy one of them:
 ```json
 {
   "name": "ChatGPT",
-  "model": "gpt-3.5-turbo-0613",
+  "model": "gpt-3.5-turbo",
   "headMessages": [
     {
       "role": "system",
@@ -70,7 +71,7 @@ Just Copy the json like below copy one of them:
       "content": "Your a translator you translate any text I give you into Chinese. Just give me the result, do not explain."
     }
   ],
-  "maxContext": 1
+  "maxContext": 0
 }
 ```
 then click then import menu of the app．
