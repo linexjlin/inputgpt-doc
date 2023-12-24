@@ -2,6 +2,23 @@
 title: 使用案例
 ---
 
+## ChatGPT
+
+```json
+{
+    "name": "ChatGPT",
+    "model": "gpt-3.5-turbo",
+    "headMessages": [
+        {
+            "role": "system",
+            "content": "You are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2021-09\nCurrent time: {{.date}}\nLatex inline: $x^2$ \nLatex block: $$e=mc^2$$"
+        }
+    ],
+    "maxContext": 24
+}
+```
+参考自 [ChatGPT-Next](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main/app/constant.ts)
+
 ## 自动回复微信消息
 ```json
 {
@@ -214,20 +231,6 @@ title: 使用案例
 不只是完形填空， 它还可以做代码补全，诗歌补全。 先在想补全的地方打一个 "_" 下划线， 然后再查询ChatGPT。
 
 ![](https://ipfs.ee/ipfs/QmRRcA8fbJ8V73h2e5hxkRDLDf2bsKcb9TurjXJCCADTRo/a159ab5f-e308-4d02-8d64-9c02ea0fc48e.gif)
-
-## 对话
-
-```json
-{
-    "name": "ChatGPT",
-    "model": "gpt-3.5-turbo",
-    "headMessages": [{
-        "role": "system",
-        "content": "You are a helpful assistant."
-    }],
-    "maxContext": 24
-}
-```
 
 ## 文档问答
 ```json
