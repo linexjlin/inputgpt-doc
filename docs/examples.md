@@ -18,6 +18,8 @@ title: Examples
 ```
 ref: [ChatGPT-Next](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main/app/constant.ts)
 
+![](https://ipfs.ee/ipfs/QmdQetjhkFgNDGf5HhSgbML1rRcYPWQsexxiPggATZ3qLm/d0d6c03a-b0cc-40f3-952c-cb81ef88f6f6.gif)
+
 ## Chat With Document
 ```json
 {
