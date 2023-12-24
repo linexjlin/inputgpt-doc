@@ -38,52 +38,30 @@ title: 使用案例
 
 ![](https://ipfs.io/ipfs/QmbV39V3cCarNqCS8yXnhBL67CdeTwPUj7Zydr85ybBgVM?filename=e8831869-a2d7-4433-89b9-35f5db272626.gif)
 
+##  双向互译 Bi-Translate
 
-## 翻译成中文
+在本地语言与英文之间相互翻译。比如：剪切板内为英文则输出为中文，剪切板内为中文则翻译成英文。当然，你还可以修改下面的 English 为任意其他语言。
+
 ```json
 {
-    "name":"翻译成中文",
+    "name": "双向互译",
     "model": "gpt-3.5-turbo",
     "headMessages": [
-      {
-        "role": "system",
-        "content": "Your are a translator engine you translate any text I give you into Chinese. Here is the message:"
-      }
+        {
+            "role": "system",
+            "content": "As an English-{{.mylang}} translator, your task is to accurately translate text between the two languages. Just give me result do not explain. Think carefully before give me result, it is important to me. "
+        },
+        {
+            "role": "user",
+            "content": "The first message is:\n````\n{{.msg}}\n````"
+        }
     ],
-    "maxContext": 0
-  }
-```
-
-## 翻译成英文
-```json
-{
-    "name":"翻译成英文",
-    "model": "gpt-3.5-turbo",
-    "headMessages": [
-      {
-        "role": "system",
-        "content": "Your are a translator engine any text I give you into English. Here is the message:"
-      }
-    ],
-    "maxContext": 0
-  }
-```
-![](https://ipfs.ee/ipfs/QmWeYQJG8Tw41MNdqBX8H3RMPXLp4FEEdnTHtCGzjiXnFt/7c5ec8d0-a3d2-4d06-b649-316456390599.gif)
-
-
-## 中英互译
-```json
-{
-    "name": "中英互译",
-    "model": "gpt-3.5-turbo",
-    "headMessages": [{
-        "role": "system",
-        "content": "As an English-Chinese translator, your task is to accurately translate text between the two languages. Just give me result do not explain. Think carefully before give me result, it is important to me. The first message need to translate is below:"
-    }],
     "maxContext": 0
 }
 ```
-输入英文返回中文，输入中文返回英文
+
+Demo：
+![](https://ipfs.ee/ipfs/QmfJUmAURswjtncxk94KE9RKJUpgH72tcsN9Mq6FkGUiZp/c1fe75b6-eb44-47dd-b138-4056045e57d9.gif)
 
 ## 专业科技翻译 
 ### Continue 版本
