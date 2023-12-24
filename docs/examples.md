@@ -47,7 +47,7 @@ Translate between the local language and English. For example: if the content in
 
 ```json
 {
-    "name": "双向互译",
+    "name": "Bi-Translator",
     "model": "gpt-3.5-turbo",
     "headMessages": [
         {
