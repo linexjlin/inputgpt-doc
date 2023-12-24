@@ -6,7 +6,7 @@ title: 使用案例
 ```json
 {
     "name": "回复微信消息",
-    "model": "gpt-3.5-turbo-0613",
+    "model": "gpt-3.5-turbo",
     "headMessages": [{
         "role": "system",
         "content": "Help me to reply last message in below:（just give me the content of message，do not explain）"
@@ -23,7 +23,7 @@ title: 使用案例
 ```json
 {
     "name":"翻译成中文",
-    "model": "gpt-3.5-turbo-0613",
+    "model": "gpt-3.5-turbo",
     "headMessages": [
       {
         "role": "system",
@@ -38,7 +38,7 @@ title: 使用案例
 ```json
 {
     "name":"翻译成英文",
-    "model": "gpt-3.5-turbo-0613",
+    "model": "gpt-3.5-turbo",
     "headMessages": [
       {
         "role": "system",
@@ -55,7 +55,7 @@ title: 使用案例
 ```json
 {
     "name": "中英互译",
-    "model": "gpt-3.5-turbo-0613",
+    "model": "gpt-3.5-turbo",
     "headMessages": [{
         "role": "system",
         "content": "As an English-Chinese translator, your task is to accurately translate text between the two languages. Just give me result do not explain. Think carefully before give me result, it is important to me. The first message need to translate is below:"
@@ -220,7 +220,7 @@ title: 使用案例
 ```json
 {
     "name": "ChatGPT",
-    "model": "gpt-3.5-turbo-0613",
+    "model": "gpt-3.5-turbo",
     "headMessages": [{
         "role": "system",
         "content": "You are a helpful assistant."
