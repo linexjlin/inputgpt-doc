@@ -5,17 +5,18 @@ title: Examples
 ## Act as ChatGPT
 ```json
 {
-  "name": "ChatGPT",
-  "model": "gpt-3.5-turbo-0613",
-  "headMessages": [
-    {
-      "role": "system",
-      "content": "You are a helpful assistant."
-    }
-  ],
-  "maxContext": 20
+    "name": "ChatGPT",
+    "model": "gpt-3.5-turbo",
+    "headMessages": [
+        {
+            "role": "system",
+            "content": "You are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2021-09\nCurrent time: {{.date}}\nLatex inline: $x^2$ \nLatex block: $$e=mc^2$$"
+        }
+    ],
+    "maxContext": 24
 }
 ```
+ref: [ChatGPT-Next](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main/app/constant.ts)
 
 ## Chat With Document
 ```json
