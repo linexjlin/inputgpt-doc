@@ -60,7 +60,8 @@ title: 使用案例
 }
 ```
 
-Demo：
+演示：
+
 ![](https://ipfs.ee/ipfs/QmfJUmAURswjtncxk94KE9RKJUpgH72tcsN9Mq6FkGUiZp/c1fe75b6-eb44-47dd-b138-4056045e57d9.gif)
 
 ## 专业科技翻译 
