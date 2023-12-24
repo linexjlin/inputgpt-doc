@@ -19,6 +19,9 @@ title: 使用案例
 ```
 参考自 [ChatGPT-Next](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main/app/constant.ts)
 
+![Demo](https://ipfs.ee/ipfs/QmYpNfj7wqZHjFCNx6uYaaKdoUJy4VK8Q336W4tCZNsxEt/f5d7ecfa-3c34-4889-b0b6-550260e92541.gif)
+
+
 ## 自动回复微信消息
 ```json
 {
