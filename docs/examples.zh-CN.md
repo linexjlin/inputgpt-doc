@@ -38,7 +38,7 @@ title: 使用案例
 
 ![](https://ipfs.io/ipfs/QmbV39V3cCarNqCS8yXnhBL67CdeTwPUj7Zydr85ybBgVM?filename=e8831869-a2d7-4433-89b9-35f5db272626.gif)
 
-##  双向互译 Bi-Translate
+##  双向互译 Bi-Translator
 
 在本地语言与英文之间相互翻译。比如：剪切板内为英文则输出为中文，剪切板内为中文则翻译成英文。当然，你还可以修改下面的 English 为任意其他语言。
 
