@@ -41,21 +41,31 @@ ref: [ChatGPT-Next](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/blob/main
 4. You can then proceed with your questions and interactions.
 5. If you want to switch to a different article, you need to clear the context first.
 
-## Translate
+##  Bi-Translator
+
+Translate between the local language and English. For example: if the content in the clipboard is in English, then output it in Chinese; if the content in the clipboard is in Chinese, then translate it into English. Of course, you can also change "English" to any other language.
 
 ```json
 {
-    "name":"translate to english",
-    "model": "gpt-3.5-turbo-0613",
+    "name": "双向互译",
+    "model": "gpt-3.5-turbo",
     "headMessages": [
-      {
-        "role": "system",
-        "content": "Translate all the messages I give you into English"
-      }
+        {
+            "role": "system",
+            "content": "As an English-{{.mylang}} translator, your task is to accurately translate text between the two languages. Just give me result do not explain. Think carefully before give me result, it is important to me. "
+        },
+        {
+            "role": "user",
+            "content": "The first message is:\n````\n{{.msg}}\n````"
+        }
     ],
     "maxContext": 0
-  }
+}
 ```
+
+Demo：
+
+![](https://ipfs.ee/ipfs/QmfJUmAURswjtncxk94KE9RKJUpgH72tcsN9Mq6FkGUiZp/c1fe75b6-eb44-47dd-b138-4056045e57d9.gif)
 
 
 ## Cloze 
