@@ -401,3 +401,7 @@ Tags: #LangGPT #编程语言 #GPT #Python #AI #编程技巧 #实战项目
 改成小红书爆款风，包括标题，正文（带有丰富emoji)，Tags.
 
 ````
+
+演示：
+
+![](https://ipfs.ee/ipfs/QmRdWD7V4ERAHuneUyqaEDibZyJBS5pG8cTPtxU25ZRCqo/194a522d-9583-4398-8714-2b1a7b042478.gif)
