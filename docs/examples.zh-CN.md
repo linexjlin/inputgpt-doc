@@ -443,7 +443,8 @@ Tags: #LangGPT #编程语言 #GPT #Python #AI #编程技巧 #实战项目
 退一步提示法，通过跳出当前困境，将问题切换到一个更高层次来，从而解决问题。
 
 相关资料:
-https://arxiv.org/abs/2310.06117
-https://github.com/ajavamind/Processing-Sketch-Chatbot/blob/8f3714c805af1a6cbcd234625338fbe57592a91f/Chatbot/customSystemPrompts/StepBack%20Prompt.txt
-https://baoyu.io/blog/prompt-engineering/step-back-prompting
-https://36kr.com/p/2540977556580103
+
+- https://arxiv.org/abs/2310.06117
+- https://github.com/ajavamind/Processing-Sketch-Chatbot/blob/8f3714c805af1a6cbcd234625338fbe57592a91f/Chatbot/customSystemPrompts/StepBack%20Prompt.txt
+- https://baoyu.io/blog/prompt-engineering/step-back-prompting
+- https://36kr.com/p/2540977556580103
