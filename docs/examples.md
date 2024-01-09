@@ -183,10 +183,11 @@ Inspired by [@MindBranches](https://x.com/MindBranches/status/174084323592316122
 Take a step back and use the prompt method to switch the problem to a higher level in order to solve it.
 
 References:
+
 https://arxiv.org/abs/2310.06117
+
 https://github.com/ajavamind/Processing-Sketch-Chatbot/blob/8f3714c805af1a6cbcd234625338fbe57592a91f/Chatbot/customSystemPrompts/StepBack%20Prompt.txt
+
 https://baoyu.io/blog/prompt-engineering/step-back-prompting
-References:
-https://arxiv.org/abs/2310.06117
-https://github.com/ajavamind/Processing-Sketch-Chatbot/blob/8f3714c805af1a6cbcd234625338fbe57592a91f/Chatbot/customSystemPrompts/StepBack%20Prompt.txt
-https://baoyu.io/blog/prompt-engineering/step-back-prompting
+
+
